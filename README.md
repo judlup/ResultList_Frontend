@@ -6,7 +6,7 @@ This project has as purpose show a tariffs application thhat allow to the user s
 
 ### Stack used
 
-This project was created using [NextJS framework](https://nextjs.org/) and [React-Bootstrap](https://react-bootstrap.netlify.app/), is hosted in [Github](https://github.com/judlup/ResultList_Frontend), deployed using [Netlify](https://www.netlify.com/) and tested using [Playwright](https://playwright.dev/docs/intro) and [GitHub Actions](https://github.com/judlup/ResultList_Frontend/actions) its backend was built using [.Net 6](https://dotnet.microsoft.com/en-us/) and deployed in [Azure](https://resultlistapi.azurewebsites.net/Tariff) this is its [Swagger](https://resultlistapi.azurewebsites.net/swagger/index.html) page.
+This project was created using [NextJS framework](https://nextjs.org/) and [React-Bootstrap](https://react-bootstrap.netlify.app/), is hosted in [Github](https://github.com/judlup/ResultList_Frontend), deployed using [Netlify](https://www.netlify.com/) and tested using [Playwright](https://playwright.dev/docs/intro) and [GitHub Actions](https://github.com/judlup/ResultList_Frontend/actions) its backend was built using [.Net 6](https://dotnet.microsoft.com/en-us/), [Repository](https://github.com/judlup/ResultList_API) and deployed in [Azure](https://resultlistapi.azurewebsites.net/Tariff) this is its [Swagger](https://resultlistapi.azurewebsites.net/swagger/index.html) page.
 
 ### Source
 
@@ -19,7 +19,7 @@ Please, visit this [Site](resultlist.netlify.app)
 web
 
 ![Screenshot](/resources/web_screenshot.png 'Web Demo')
-![Screenshot](/resources/laptop_screenshot.png 'Laptop Demo')
+![Screenshot](/resources/web_laptop_screenshot.png 'Laptop Demo')
 ![Screenshot](/resources/tablet_screenshot.png 'Tablet Demo')
 ![Screenshot](/resources/mobile_screenshot.png 'Mobile Demo')
 
