@@ -1,39 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Result List Frontend [![CI](https://github.com/judlup/ResultList_Frontend/actions/workflows/main.yml/badge.svg)](https://github.com/judlup/ResultList_Frontend/actions/workflows/main.yml)
 
-## Getting Started
+## Introduction
 
-First, run the development server:
+This project has as purpose show a tariffs application thhat allow to the user sort its elements, for an example given, with this project you could click on any of top buttons to ascendent sort and click again to descendent sort for a specific field, and show the result.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### Stack used
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This project was created using [NextJS framework](https://nextjs.org/) and [React-Bootstrap](https://react-bootstrap.netlify.app/), is hosted in [Github](https://github.com/judlup/ResultList_Frontend), deployed using [Netlify](https://www.netlify.com/) and tested using [Playwright](https://playwright.dev/docs/intro) and [GitHub Actions](https://github.com/judlup/ResultList_Frontend/actions) its backend was built using [.Net 6](https://dotnet.microsoft.com/en-us/) and deployed in [Azure](https://resultlistapi.azurewebsites.net/Tariff) this is its [Swagger](https://resultlistapi.azurewebsites.net/swagger/index.html) page.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+### Source
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+[Data](https://github.com/judlup/ResultList_API/blob/main/resultlist_api/Data/Data.json)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Netlify Demo
 
-## Learn More
+Please, visit this [Site](resultlist.netlify.app)
 
-To learn more about Next.js, take a look at the following resources:
+web
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![Screenshot](/resources/web_screenshot.png 'Web Demo')
+![Screenshot](/resources/laptop_screenshot.png 'Laptop Demo')
+![Screenshot](/resources/tablet_screenshot.png 'Tablet Demo')
+![Screenshot](/resources/mobile_screenshot.png 'Mobile Demo')
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## How to run the project
 
-## Deploy on Vercel
+First, clone this repository [https://github.com/judlup/ResultList_Frontend](https://github.com/judlup/ResultList_Frontend), then you need to install the dependencies: `npm install`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Then, you can run the project: `npm build` and `npm start`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+And finally, you can test the project opening a new terminal and running: `npm run test:e2e`
 
-# Peding
+### GitHub Actions
 
-- [ ] Readme
-- [ ] Netlify
+![Screenshot_Github_Actions](/resources/unit_testing_github_actions.png 'Unit testing and Github Actions Demo')
+
+## To Do
+
+- [ ] Add Redux
+- [ ] Add Framer Motion
