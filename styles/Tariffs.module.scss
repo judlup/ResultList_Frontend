@@ -1,0 +1,7 @@
+@import './_colors';
+@import './_variables';
+
+.tariffContainer {
+  overflow-y: auto;
+  max-height: 90vh;
+}

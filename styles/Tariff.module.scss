@@ -1,0 +1,92 @@
+@import './_colors';
+@import './_variables';
+
+.container {
+  background-color: $blue-color;
+  height: 15vh;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 7px;
+  @media (min-width: $xs-screen-min) and (max-width: $xs-screen-max) {
+    font-size: 0.8em;
+  }
+  .name {
+    font-weight: 600;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media (min-width: $xs-screen-min) and (max-width: $xs-screen-max) {
+      font-size: 0.9em;
+    }
+  }
+  .speed {
+    text-align: center;
+    .title {
+      font-size: 0.8em;
+      font-weight: 500;
+      @media (min-width: $xs-screen-min) and (max-width: $md-screen-max) {
+        display: none;
+      }
+    }
+    .download {
+      @media (min-width: $md-screen-min) {
+        border: 1px solid $cyan-color;
+        border-radius: 7px;
+      }
+      svg {
+        margin-left: 15px;
+        margin-right: 15px;
+      }
+      margin-bottom: 5px;
+    }
+    .upload {
+      @media (min-width: $md-screen-min) {
+        border: 1px solid $cyan-color;
+        border-radius: 7px;
+      }
+      @media (min-width: $xs-screen-min) and (max-width: $xs-screen-max) {
+        display: none;
+      }
+      svg {
+        margin-left: 15px;
+        margin-right: 15px;
+      }
+    }
+  }
+  .benefits {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media (min-width: $xs-screen-min) and (max-width: $md-screen-max) {
+      display: none;
+    }
+  }
+  .price {
+    display: flex;
+    justify-content: center;
+    @media (min-width: $md-screen-min) {
+      flex-direction: column;
+    }
+    @media (min-width: $xs-screen-min) and (max-width: $xs-screen-max) {
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row;
+    }
+    .tariffText {
+      font-size: 0.9em;
+      @media (min-width: $xs-screen-min) and (max-width: $xs-screen-max) {
+        display: none;
+      }
+    }
+    strong {
+      font-size: 2em;
+      text-align: right;
+      @media (min-width: $xs-screen-min) and (max-width: $xs-screen-max) {
+        font-size: 1em;
+      }
+    }
+  }
+}
